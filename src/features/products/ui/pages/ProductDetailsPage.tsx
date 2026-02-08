@@ -90,7 +90,7 @@ export default function ProductDetailsPage() {
     brands.find((b) => b.id === product.brandId)?.name ||
     "Unknown";
   const storeName =
-    stores.find((s) => s.id === product.storeId)?.name || "Unknown";
+    stores.find((s) => s.id === product.storeId)?.title || "Unknown";
 
   return (
     <Box>

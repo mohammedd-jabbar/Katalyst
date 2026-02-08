@@ -281,7 +281,7 @@ export default function ProductCreatePage() {
                     </MenuItem>
                     {stores.map((store) => (
                       <MenuItem key={store.id} value={store.id}>
-                        {store.name}
+                        {store.title}
                       </MenuItem>
                     ))}
                   </Select>
