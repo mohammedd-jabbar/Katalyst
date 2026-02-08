@@ -27,10 +27,7 @@ import SaveIcon from "@mui/icons-material/Save";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import { useSnackbar } from "notistack";
 
-import {
-  productSchema,
-  type ProductFormData,
-} from "../components/ProductForm/schema";
+import { productSchema, type ProductFormData } from "../components/schema";
 import { createProduct } from "../../api/productsApi";
 import { getCategories, getBrands, getStores } from "../../api/lookups.api";
 import { fileToBase64 } from "../../../../lib/file/fileToBase64";

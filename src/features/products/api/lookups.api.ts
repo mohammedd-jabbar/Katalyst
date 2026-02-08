@@ -13,7 +13,7 @@ export interface Category {
 
 export interface Brand {
   id: number;
-  name: string;
+  name?: string;
   createdAt?: string;
   lastUser?: string;
 }
