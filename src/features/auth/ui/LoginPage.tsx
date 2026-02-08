@@ -18,7 +18,7 @@ export default function LoginPage() {
           {/* Header */}
           <Box sx={{ mb: 4, textAlign: "center" }}>
             <Typography variant="h4" component="h1" gutterBottom>
-              ProductPal Dashboard
+              Katalyst Dashboard
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Sign in to manage your products
