@@ -47,7 +47,7 @@ export interface CreateProductInput {
 export async function createProduct(
   data: CreateProductInput,
 ): Promise<TProduct> {
-  const res = await http.post<TProduct>("/Products", data);
+  const res = await http.post<TProduct>("/products", data);
   return res.data;
 }
 
@@ -56,7 +56,7 @@ export async function createProduct(
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function updateProduct(id: number, data: any): Promise<TProduct> {
-  const res = await http.put<TProduct>(`/Products/${id}`, data);
+  const res = await http.put<TProduct>(`/products/${id}`, data);
   return res.data;
 }
 
