@@ -2,6 +2,9 @@
 
 This is a lightweight admin interface designed to handle core product management workflows. It covers everything from secure authentication to full CRUD operations for a product catalog.
 
+## Live Demo Link
+[Visit Katalyst](https://katalystdahsboard.netlify.app/)
+
 ## The Stack
 
 I chose these tools to keep the app scalable but easy to manage:
